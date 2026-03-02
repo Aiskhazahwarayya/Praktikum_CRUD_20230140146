@@ -9,8 +9,8 @@ Request Body :
 
 ```json
 {
-"nama" : "Aiskha",
-"usia" : 21
+  "nama" : "Aiskha",
+  "usia" : 21
 }
 ```
 
@@ -18,12 +18,12 @@ Response Body (success) :
 
 ```json
 {
-"status": "success",
-"data": {
-"age": 21,
-"id": "random string",
-"name": "Aiskha"
-}
+  "status": "success",
+  "data": {
+    "age": 21,
+    "id": "random string",
+    "name": "Aiskha"
+  }
 }
 ```
 
@@ -37,15 +37,16 @@ Response Body (success) :
 
 ```json
 {
-"status": "success",
-"data": [
-{
-"age": 21,
-"id": "random string",
-"name": "Aiskha Zahwa"
+  "status": "success",
+  "data": [
+    {
+      "age": 21,
+      "id": "random string",
+      "name": "Aiskha Zahwa"
+    }
+  ]
 }
-]
-}```
+```
 
 ![img_3.png](img_3.png)
 
@@ -54,23 +55,24 @@ Endpoint : PUT /api/users/{id}
 
 Request Body :
 
-```json
+``` json
 {
-"nama" : "Aiskha Zahwa",
-"usia" : 21
+  "nama" : "Aiskha Zahwa",
+  "usia" : 21
 }
+
 ```
 
 Response Body (success) :
 
 ```json
 {
-"status": "success",
-"data": {
-"age": 21,
-"id": "random string",
-"name": "Aiskha Zahwa"
-}
+    "status": "success",
+    "data": {
+    "age": 21,
+    "id": "random string",
+    "name": "Aiskha Zahwa"
+  }
 }
 ```
 
