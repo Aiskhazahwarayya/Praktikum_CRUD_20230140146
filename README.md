@@ -7,16 +7,16 @@ Endpoint : POST /api/users
 
 Request Body :
 
-json
+```json
 {
 "nama" : "Aiskha",
 "usia" : 21
 }
-
+```
 
 Response Body (success) :
 
-json
+```json
 {
 "status": "success",
 "data": {
@@ -25,21 +25,17 @@ json
 "name": "Aiskha"
 }
 }
+```
 
 ![img.png](img.png)
 
+
 ### 🔹 Get All Users
 Endpoint : GET /api/users
 
 Response Body (success) :
 
-json
-### 🔹 Get All Users
-Endpoint : GET /api/users
-
-Response Body (success) :
-
-json
+```json
 {
 "status": "success",
 "data": [
@@ -49,7 +45,7 @@ json
 "name": "Aiskha Zahwa"
 }
 ]
-}
+}```
 
 ![img_3.png](img_3.png)
 
@@ -58,16 +54,16 @@ Endpoint : PUT /api/users/{id}
 
 Request Body :
 
-json
+```json
 {
 "nama" : "Aiskha Zahwa",
 "usia" : 21
 }
-
+```
 
 Response Body (success) :
 
-json
+```json
 {
 "status": "success",
 "data": {
@@ -76,6 +72,7 @@ json
 "name": "Aiskha Zahwa"
 }
 }
+```
 
 ![img_1.png](img_1.png)
 
@@ -84,10 +81,11 @@ Endpoint : DELETE /api/users/{id}
 
 Response Body (success) :
 
-json
+```json
 {
 "message": "Successfully delete user with id (random string)"
 }
+```
 
 ![img_2.png](img_2.png)
 
